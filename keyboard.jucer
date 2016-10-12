@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="V1S25f" name="Keyboard" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.FM" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.4">
+  <MAINGROUP id="zuJLoe" name="Keyboard">
+    <GROUP id="{8261F5E8-B149-CFE4-3BA4-B613DD88D081}" name="Source">
+      <FILE id="VGu50K" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="awptqm" name="keyboardGUI.cpp" compile="1" resource="0" file="Source/keyboardGUI.cpp"/>
+      <FILE id="Zwwe31" name="keyboardGUI.h" compile="0" resource="0" file="Source/keyboardGUI.h"/>
+      <FILE id="xPWlc9" name="FaustReverb.h" compile="0" resource="0" file="Source/FaustReverb.h"/>
+      <FILE id="I0ngSC" name="Smooth.h" compile="0" resource="0" file="Source/Smooth.h"/>
+      <FILE id="LMnGE6" name="Sine.h" compile="0" resource="0" file="Source/Sine.h"/>
+      <FILE id="HbVs5X" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="KVMWPD" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <CODEBLOCKS_LINUX targetFolder="Builds/CodeBlocksLinux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Keyboard"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Keyboard"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE-master/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_LINUX>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Keyboard"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Keyboard"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE-master/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
